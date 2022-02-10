@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-better-log",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "babel-plugin-better-log",
   "main": "dist/bundle.js",
   "keywords": [
@@ -9,7 +9,7 @@
   ],
   "homepage": "https://github.com/Itherma/babel-plugin-better-log",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode development"
   },
   "author": "Itherma",
   "license": "MIT",
