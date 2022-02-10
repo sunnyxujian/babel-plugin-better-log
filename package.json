@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "babel-plugin-better-log",
   "main": "dist/bundle.js",
+  "keywords": [
+    "babel-plugin",
+    "log"
+  ],
+  "homepage": "https://github.com/Itherma/babel-plugin-better-log",
   "scripts": {
     "build": "webpack --mode production"
   },
-  "keywords": [
-    "babel-plugin"
-  ],
   "author": "Itherma",
   "license": "MIT",
   "devDependencies": {
@@ -17,5 +19,9 @@
     "babel-types": "^6.26.0",
     "webpack": "^5.63.0",
     "webpack-cli": "^4.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Itherma/babel-plugin-better-log.git"
   }
 }
