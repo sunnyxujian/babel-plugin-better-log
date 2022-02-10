@@ -1,0 +1,1 @@
+(()=>{console.log("hello world"),console.log("something.props ===>","value","\n");const o={a:{b:{c:"object"}}};console.log("others.obj.a.b.c ===>",o.a.b.c,"\n"),console.log("others.key ===>",o,"\n","others.obj.a ===>",o.a,"\n","others.obj.a.b ===>",o.a.b,"\n","others.obj.a.b.c ===>",o.a.b.c,"\n")})();
