@@ -3,6 +3,12 @@ var __webpack_exports__ = {};
 /*!********************!*\
   !*** ./example.js ***!
   \********************/
+/*
+ * @Description: feature name
+ * @Author: xujian
+ * @Date: 2022-02-10 10:15:53
+ */
+im;
 console.log('hello world');
 const something = {
   props: 'value'

@@ -1,3 +1,8 @@
+<!--
+ * @Description: feature name
+ * @Author: xujian
+ * @Date: 2022-02-10 15:08:48
+-->
 # babel-plugin-better-log
 
 解决控制台打印变量时，不知道哪个变量打印的是哪个值的问题。支持`object[key]`变量key，一次打印多个变量`console.log(a,b,c,d)` 时不仅会带上变量名，还会换行看起来更加清晰。  
@@ -8,7 +13,7 @@
 
 **在Vue中使用**  
 
-![实例图片1](./asset/pic2.png)
+![实例图片2](./asset/pic2.png)
 ## 用法
 ### 安装babel-插件
 ```bush
