@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-better-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "babel-plugin-better-log",
   "main": "dist/bundle.js",
   "keywords": [

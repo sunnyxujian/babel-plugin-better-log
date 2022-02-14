@@ -14,6 +14,28 @@
 **在Vue中使用**  
 
 ![实例图片2](./asset/pic2.png)
+
+```js
+// case1：单个字符串打印
+console.log('hello world'); // 'hello world'
+
+// case2：变量打印
+const something = { props: 'value' }
+console.log(something.props) // something.props ===> 'value'
+
+const others = { obj: { a: { b: { c: 'object' } } } }
+const key = 'obj'
+
+// case3：深层变量打印
+console.log(others.obj.a.b.c) // others.obj.a.b.c ===> 'object'
+
+// case4：连续多个变量打印，并且key是动态的，打印结果会自动换行
+console.log(others[key], others['obj']['a'], others.obj.a.b, others.obj.a.b.c)  // others.key ===> { a: { b: { c: 'object' } } }
+                                                                                // others.obj.a ===> { b: { c: 'object' } }
+                                                                                // others.obj.a.b ===> { c: 'object' }
+                                                                                // others.obj.a.b.c ===> 'object'
+
+```
 ## 用法
 ### 安装babel-插件
 ```bush
